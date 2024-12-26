@@ -8,6 +8,7 @@ import Button from '../components/Button/Button';
 import Modal from '../components/Modal/Modal';
 import Card from '../components/Card/Card';
 import LanguageSwitcher from '../components/LanguageSwitcher/LanguageSwitcher';
+import UserList from "../components/UserList/UserList";
 
 const HomePage = () => {
     const { t } = useTranslation('common');
@@ -38,6 +39,8 @@ const HomePage = () => {
                 <Card title="Card 2">
                     <p>Content of Card 2</p>
                 </Card>
+
+                <UserList />
             </main>
             <Footer />
         </div>

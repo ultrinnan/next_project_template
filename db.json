@@ -1,0 +1,15 @@
+
+{
+  "users": [
+    { "id": 1, "name": "John Doe JR", "email": "john@example.com" },
+    { "id": 2, "name": "Jane Smith", "email": "jane@example.com" }
+  ],
+  "products": [
+    { "id": 1, "name": "Product A", "price": 10.99 },
+    { "id": 2, "name": "Product B", "price": 19.99 }
+  ],
+  "campaigns": [
+    { "id": 1, "name": "Campaign 1", "description": "Discount on Product A" },
+    { "id": 2, "name": "Campaign 2", "description": "Free shipping on orders over $50" }
+  ]
+}
