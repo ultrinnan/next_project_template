@@ -1,0 +1,37 @@
+
+{
+  "name": "nextjs-project-template",
+  "version": "1.0.0",
+  "description": "A basic Next.js project template",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "axios": "latest",
+    "next-i18next": "latest",
+    "react-i18next": "latest",
+    "i18next": "latest",
+    "sass": "latest",
+    "@shadcn/ui": "latest"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "prettier": "latest",
+    "husky": "latest",
+    "lint-staged": "latest"
+  },
+  "author": "",
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "eslint --fix",
+    "*.{css,scss,md}": "prettier --write"
+  }
+}
